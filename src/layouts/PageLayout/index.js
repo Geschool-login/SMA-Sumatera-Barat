@@ -12,9 +12,9 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title = "Provinsi Banten Blended Learning"
-    const slogan = "Gantungkan cita-cita mu setinggi langit! Bermimpilah setinggi langit. Jika engkau jatuh, engkau akan jatuh di antara bintang-bintang."
-    const copyright = "2021 Provinsi Banten Blended Learning - Didukung oleh Geschool"
+    const title = "SMA Sumatera Barat Blended Learning"
+    const slogan = "Pendidikan bukanlah sesuatu yang diperoleh seseorang, tapi pendidikan adalah sebuah proses seumur hidup."
+    const copyright = "2021 SMA Sumatera Barat Blended Learning - Didukung oleh Geschool"
 
     return (
         <div>

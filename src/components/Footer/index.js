@@ -15,10 +15,10 @@ function Index( props ) {
                     </ul>
                     <ul className="list-inline d-flex footer-list link-list">
                         <li>
-                            <a target="_blank" rel="noreferrer" href="https://www.bantenprov.go.id/" className="footer-link">Dinas Provinsi Banten</a>
+                            <a target="_blank" rel="noreferrer" href="https://sumbarprov.go.id/" className="footer-link">Dinas Provinsi Sumatera Barat</a>
                         </li>
                         <li>
-                            <a target="_blank" rel="noreferrer" href="https://dindikbud.bantenprov.go.id/" className="footer-link">Dinas Pendidikan Provinsi Banten</a>
+                            <a target="_blank" rel="noreferrer" href="https://disdik.sumbarprov.go.id/" className="footer-link">Dinas Pendidikan Provinsi Sumatera Barat</a>
                         </li>
                     </ul>
                 </div>
