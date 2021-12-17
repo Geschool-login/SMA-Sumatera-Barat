@@ -35,8 +35,8 @@
 }
 
 .hero .logo img {
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 95px;
 }
 
 .hero h5 {
@@ -80,7 +80,6 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    /* letter-spacing: 0.1em; */
 }
 
 .slogan p {
@@ -90,9 +89,33 @@
     line-height: normal;
 }
 
+.data-container {
+    padding: 5vh 25vh;
+    width: 100%;
+    color: #fff;
+}
+
+.mr-3 {
+    margin-right: 15px !important;
+}
+
+.school-list-container {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid #fff;
+}
+
+.data-mobile {
+        display: none !important;
+    }
+
+
 @media (max-width: 991px) {
     .hero .content-container {
-        padding: 5vh;
+        padding: 5vh 5vh;
+        min-height: 60vh;
     }
 
     .hero .content-container .left-side {
@@ -115,21 +138,9 @@
         text-align: justify;
     }
 
-    .slogan p {
-        font-size: 1.2rem;
-        margin-bottom: 0;
-        font-weight: 300;
-        line-height: normal;
+    .data-container {
+        padding: 5vh;
     }
-
-    .deskripsi h5 {
-        font-size: 1rem;
-    }
-
-    .title h1 {
-        font-size: calc(1.325rem + .9vw);
-    }
-
 }
 
 @media (max-width: 767px) {
@@ -159,8 +170,30 @@
     }
 
     .deskripsi {
-        width: 100%;
+        width: 70%;
     }
+
+    .deskripsi h2 {
+        font-size: 22px;
+    }
+
+    .data-container {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .data {
+        display: none;
+    }
+
+    .data-mobile {
+        display: block !important;
+    }
+
+    .logo {
+        margin-right: 10px;
+    }
+
 
     
 }
