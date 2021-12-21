@@ -12,9 +12,10 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title = "SMA Sumatera Barat Blended Learning"
+    const title1 = "Sumatera Barat"
+    const title2 = "Blended Learning"
     const slogan = "Pendidikan bukanlah sesuatu yang diperoleh seseorang, tapi pendidikan adalah sebuah proses seumur hidup."
-    const copyright = "2021 SMA Sumatera Barat Blended Learning - Didukung oleh Geschool"
+    const copyright = "2021 Sumatera Barat Blended Learning - Didukung oleh Geschool"
 
     return (
         <div>
@@ -23,7 +24,8 @@ function pageLayout( props ) {
                 logo={logo}
                 background={background}
                 deskripsi={deskripsi}
-                title={title}
+                title1={title1}
+                title2={title2}
                 slogan={slogan}
                 appName={props.appName}
             >

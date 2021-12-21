@@ -99,23 +99,26 @@
     margin-right: 15px !important;
 }
 
-.school-list-container {
-    text-align: center;
-}
-
 .border {
     border: 1px solid #fff;
 }
-
-.data-mobile {
-        display: none !important;
-    }
-
 
 @media (max-width: 991px) {
     .hero .content-container {
         padding: 5vh 5vh;
         min-height: 60vh;
+    }
+
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .hero h5 {
+        font-size: 1.5rem;
+    }
+
+    .slogan p {
+        font-size: 1.3rem;
     }
 
     .hero .content-container .left-side {
@@ -139,7 +142,7 @@
     }
 
     .data-container {
-        padding: 5vh;
+        padding: 0 5vh;
     }
 }
 
@@ -180,14 +183,6 @@
     .data-container {
         padding: 0;
         flex-direction: column;
-    }
-
-    .data {
-        display: none;
-    }
-
-    .data-mobile {
-        display: block !important;
     }
 
     .logo {

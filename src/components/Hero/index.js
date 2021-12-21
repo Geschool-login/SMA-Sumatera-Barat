@@ -25,7 +25,7 @@ function Hero(props) {
                                 </div>
                                 <div className="mb-2 title">
                                     <h1>
-                                        {props.title}
+                                        {props.title1}&nbsp;{props.title2}
                                     </h1>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ function Hero(props) {
                                 <div className="d-flex align-items-center deskripsi">
                                     <h2>
                                         <b>
-                                            {props.title}
+                                            {props.title1} <br /> {props.title2}
                                         </b>
                                     </h2>
                                 </div>
@@ -56,16 +56,9 @@ function Hero(props) {
 
                 </div>
                 <div className="data-container mb-5">
-                    <div className="data">
-                        <Data />
-                    </div>
-                    <div className="data-mobile">
-                        <DataMobile />
-                    </div>
-                    <div className="school-list-container">
-                        <h4 className="mb-5">Mereka telah bergabung bersama Geschool</h4>
-                        <Carousel />
-                    </div>
+                    <Data />
+                    <DataMobile />
+                    <Carousel />
                 </div>
             </div>
         </div>
