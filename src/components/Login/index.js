@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ExclamationCircle } from 'react-bootstrap-icons';
 
+// CSS
+import "./style.css";
+
 import eye_show from '../../assets/img/icon/eye_show.png';
 import eye_hide from '../../assets/img/icon/eye_hide.png';
 
@@ -88,7 +91,6 @@ function Login(props) {
     return (
             
             <div className="main-container" data-page={props.appName} data-aos={"fade-up"}>
-
                 <div className="form-title mb-3">
                     <div className="mb-0">
                         <h5>Masuk</h5>

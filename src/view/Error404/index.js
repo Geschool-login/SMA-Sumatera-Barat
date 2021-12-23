@@ -3,6 +3,8 @@ import { withRouter } from 'react-router'
 
 import img from '../../assets/img/404.png'
 
+// CSS
+import "./style.css";
 
 const C = (props) => {
 

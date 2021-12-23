@@ -25,7 +25,7 @@ function Hero(props) {
                                 </div>
                                 <div className="mb-2 title">
                                     <h1>
-                                        {props.title1}&nbsp;{props.title2}
+                                        {props.title1} {props.title2}
                                     </h1>
                                 </div>
                             </div>

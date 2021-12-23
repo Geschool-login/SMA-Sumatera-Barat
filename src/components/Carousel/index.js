@@ -59,15 +59,15 @@ function Index() {
                         {
                             logos.map((item, index) => (
                                 <div key={index} className="item mr-3">
-                                    <div className="col-xs-4 d-flex flex-column align-items-center">
+                                    <div className="col-xs-4 d-flex flex-column align-items-center mx-1">
                                         {
                                             item.icon === '' ? 
-                                                <div alt="logo-school" className="img-responsive mb-3 logo-img">
-                                                    <img src={LogoEmpty} alt="" />
+                                                <div className="img-responsive mb-3 logo-img">
+                                                    <img src={LogoEmpty} alt="logo-school" />
                                                 </div> 
                                             : 
-                                                <div alt="logo-school" className="img-responsive mb-3 logo-img" >
-                                                    <img src={item.icon} alt="" />
+                                                <div className="img-responsive mb-3 logo-img" >
+                                                    <img src={item.icon} alt="logo-school" />
                                                 </div>
                                         }
                                         <p>{item.name}</p>
